@@ -1,0 +1,429 @@
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+   
+    background-image:url(../imagem/fundo-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+
+
+section#topo h1{
+    background-image: url(../imagem/logo-airbnb.png);
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 41px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+Section#topo span{
+   visibility: hidden;
+    
+    
+}
+section#topo .container{
+    display: flex;
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px;
+           
+}
+
+Section#topo .container nav ul li{
+    list-style: none;
+    display: inline-flex;
+    padding-left: 40px;
+    margin-top: -120px;
+    
+    
+}
+
+Section#topo .container nav ul li a{
+    color:#fff ;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
+    font-family: "source sans pro", sans-serif;
+     -webkit-font-smoothing: antialiased;
+    
+}
+
+section#topo .container nav ul li img{
+    padding-top: 30px
+    
+}
+
+.textoCentral{
+    text-align: center;
+}
+
+.textoCentral h1, h2{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'source sans pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.textoCentral h1{
+    margin-top: 70px;
+}
+
+.textoCentral button{
+    background-color: #fd5c63;
+    border: none;
+    width: 267px;
+    height: 55px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    border-radius: 100px;
+}
+
+
+section#meiopage .img-meio{    
+   margin-top: 60px;
+   background-size: 100%;
+    
+   
+}
+
+
+section#meiopage .textopage h1{
+    margin-top: -80px;
+    margin-left: 80px;
+    color: #4c4c51;
+    font-size: 36px;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+}
+
+section#meiopage .textopage h2{
+    font-size: 22px;
+    color: #88939e;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    text-align: left;
+    margin-left: 53px;
+    margin-top: -23px;
+}
+
+section#meiopage .manCook img{
+    position: relative;
+    float: right;
+    width: 447px;
+    height: 236px;
+    margin-top: -160px;
+    margin-right: 50px;
+    
+}
+
+.estatisticas{
+    display:inline-flex;
+    margin-top: 10px;
+    margin-left: 100px;
+    justify-content: space-between;
+    padding: 20px;
+   
+    
+    
+    
+}
+
+.estatisticas h1{
+    padding-left: 70px;
+    color: #f94d59;
+    font-size: 48px;
+    font-family: "Merriwether";
+     -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+    
+    
+}
+
+.estatisticas small{
+    margin-top:90px;
+    margin-left: -80px;
+    font-size: 22px;
+    color: #88939e;
+     -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+
+
+section#quartopage{
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}
+
+section#quartopage .angela img{
+    width: 794px;
+    height: 519px;
+}
+
+section#quartopage .descricao img{
+    width: 62px;
+    height: 62px;
+    margin-left: 50px;
+    
+    
+}
+
+section#quartopage .descricao h1, h3{
+    margin-left: 150px;
+    margin-top: -50px;
+    
+}
+
+section#quartopage .descricao h1{
+    font-size: 22px;
+    margin-right: 20px;
+    color: #fb5c68;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    
+}
+
+section#quartopage .descricao h3{
+    color: black;
+    font-size: 19px;
+    margin-top: 10px;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    color:#88939e; 
+}
+
+section#quartopage .microfone img{
+    padding-top: 20px;
+    
+}
+
+section#selecao{
+    margin-top: 600px;
+    text-align: center;
+    
+}
+
+section#selecao .procura h1{
+    color:#4c4c51;
+    font-size: 36px;
+     font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    
+}
+
+section#selecao .procura h2{
+    color:#88939e;
+    font-size: 22px;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+
+section#selecao .escolha button{
+   margin-right: 400px;
+    margin-left: 398px;
+    border: none;
+    padding:10px;
+    background-color: #fd6e74;
+    width: 474px;
+    height: 60px;
+    border-radius: 0 0 10px 10px;
+    font-size: 22px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    
+    
+}
+
+section#selecao .escolha select{
+    width: 474px;
+    height: 60px;
+    background-color:#fff;
+    border: 1px solid #dbdbdb;
+    font-size: 22px;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    color: #88939e;
+    
+    
+}
+
+section#finalpage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+    
+}
+
+section#finalpage .idiomaMoeda .idioma, .moeda{
+    margin-left: 40px;
+    display: block;
+    width: 339px;
+    height: 60px;
+    font-size: 22px;
+    color: #75808c;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    border: 1px solid #dddddd;
+    border-radius: 2px 2px 2px 2px;
+    background-color: #ffffff;
+}
+
+section#finalpage .idiomaMoeda .idioma{
+    margin-bottom: 20px;
+}
+
+section#finalpage .air-bnb, .discover, .hosting{
+    margin-right: 60px;
+    margin-top: -40px;
+    
+    
+}
+
+section#finalpage .air-bnb h1{
+    font-size: 22px;
+    color: #fb5c68;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+    margin-left: 40px;
+}
+
+section#finalpage .air-bnb ul li a{
+    text-decoration:none;
+    color: #88939e;
+     font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    
+    
+}
+
+section#finalpage .air-bnb ul li{
+    list-style: none;
+    font-size: 22px;
+    
+}
+
+section#finalpage .discover h1{
+    font-size: 22px;
+    color: #fb5c68;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+    margin-left: 40px;
+    
+}
+
+section#finalpage .discover ul li a{
+    list-style: none;
+    text-decoration:none;
+    color: #88939e;
+     font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    
+    
+}
+
+section#finalpage .discover ul li{
+    list-style: none;
+    font-size: 22px;
+    
+}
+
+section#finalpage .hosting ul li a{
+    list-style: none;
+    text-decoration:none;
+    color: #88939e;
+     font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+
+section#finalpage .hosting ul li{
+    list-style: none;
+    font-size: 22px;
+    
+}
+
+section#finalpage .hosting h1{
+    font-size: 22px;
+    color: #fb5c68;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+    margin-left: 40px;
+}
+
+
+
+footer{
+    border-top: 1px solid #e8e8e8;
+    margin-top: 40px;
+    display: flex;
+}
+
+footer ul li{
+    display: inline;
+    padding: 10px;
+    list-style: none;
+    
+    
+}
+
+footer ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #88939e;
+    font-size: 22px;
+    font-family: 'source sans pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    
+}
+
+footer ul {
+    margin-left: 869px;
+    margin-top: -60px;
+     
+}
+
+footer h1{
+    background-image: url(/imagem/logo-marca.png);
+    background-repeat: no-repeat;
+    width: 113px;
+    height: 35px;
+    margin-left: 60px;
+}
+
+footer span{
+    visibility: hidden;
+}
+
